@@ -179,15 +179,49 @@
 // const result = multiply(2, 3, 5);
 // console.log(result); // 30
 
-// Глобальна змінна
-const value = "I'm a global variable";
+// // Глобальна змінна
+// const value = "I'm a global variable";
 
-function foo() {
-  // Можна звернутися до глобальної змінної
-  console.log(value); // "I'm a global variable"
-}
+// function foo() {
+//   // Можна звернутися до глобальної змінної
+//   console.log(value); // "I'm a global variable"
+// }
 
-foo();
-// Можна звернутися до глобальної змінної
-console.log(value);
-// "I'm a global variable"
+// foo();
+// // Можна звернутися до глобальної змінної
+// console.log(value);
+// // "I'm a global variable"
+
+// const employee = {
+//   baseSalary: 30000,
+//   overtime: 10,
+//   rate: 20,
+//   getWage() {
+//     return this.baseSalary + this.overtime * this.rate;
+//   },
+// };
+
+// employee.getWage();
+
+// class Client {
+//   #login;
+//   #email;
+
+//   constructor(login, email) {
+//     this.#login = login;
+//     this.#email = email;
+//   }
+
+//   get clientData() {
+//     return { login: this.#login, email: this.#email };
+//   }
+//   set clientData({ newLogin, newEmail }) {
+//     this.#login = newLogin;
+//     this.#email = newEmail;
+//   }
+// }
+
+// const newClient = new Client("Mango", "mango@gmail.com");
+// console.log(newClient);
+// newClient.clientData = { newLogin: "Poly", newEmail: "poly@gmail.com" };
+// console.log(newClient);
