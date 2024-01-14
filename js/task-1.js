@@ -202,3 +202,11 @@
 // };
 
 // employee.getWage();
+
+function sum(x, y) {
+  return x + y;
+}
+
+const test = sum(5, 6);
+
+console.log(test);
