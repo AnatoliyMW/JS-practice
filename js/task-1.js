@@ -202,11 +202,6 @@
 // };
 
 // employee.getWage();
-
-function sum(x, y) {
-  return x + y;
-}
-
-const test = sum(5, 6);
-
-console.log(test);
+// let selectedColors = ["red", "blue"];
+// selectedColors[2] = "green";
+// console.log(selectedColors);
